@@ -1,0 +1,6 @@
+{
+  "name": "Local Rank Grid Scanner",
+  "description": "Công cụ quét thứ hạng từ khóa Google Maps theo lưới tọa độ địa phương tích hợp Leaflet và Serper API",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
