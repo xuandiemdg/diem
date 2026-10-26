@@ -91,7 +91,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
             title="Trang chủ MapsNgon.vn"
           >
             <img
-              src="/mapsngon-logo-header-1024x246.png"
+              src="./mapsngon-logo-header-1024x246.png"
+              onError={(e) => {
+                e.currentTarget.src = 'https://mapsngon.vn/wp-content/uploads/2026/07/mapsngon-logo-header-1024x246.png';
+              }}
               alt="Maps Ngon Logo"
               className="h-8 sm:h-9 w-auto object-contain transition-transform group-hover:scale-105"
             />
